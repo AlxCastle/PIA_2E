@@ -16,6 +16,21 @@ function network_monitoring {
     done
 }
 
+# Validate the input parameter
+if [ "$1" = "-n" ]; then  
+    if [ -z "$2" ]; then
+        echo "Requiere la cantidad de veces que quiere ver el monitoreo."
+        exit 1
+    elif [[ ! "$2" =~ ^-?[0-9]+$ ]]; then
+        echo "Requiere un valor numerico."
+        exit 1
+    else
+        network_monitoring "$2"
+    fi
+else
+    echo "NOTA: Si desea ejecutar el script ingresando un parametro de entrada -n cantidad, donde cantidad representa la cantidad de veces que quiere ver el monitoreo y presione CTRL+C."
+fi
+
 # Function to display the menu
 show_menu() {
     echo ""
