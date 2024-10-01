@@ -1,18 +1,19 @@
 # 2o Entregable - Proyecto Final de Ciberseguridad: Módulos de Bash y GitHub
 
 ## Descripción
-Este proyecto consiste en la creación de dos scripts en Bash que realizan tareas de ciberseguridad: monitoreo de red y escaneo de puertos. Los scripts aceptan parámetros de entrada y cuentan con menús interactivos para diversas funcionalidades.
+Este proyecto consiste en la creación de dos scripts en Bash que realizan tareas de ciberseguridad: `monitoreo de red` y `escaneo de puertos`. 
+Los scripts aceptan parámetros de entrada y cuentan con menús interactivos para diversas funcionalidades.
 
 ## Objetivos
-- Desarrollar habilidades en la creación de scripts de Bash aplicados a ciberseguridad.
-- Continuar el uso de GitHub como plataforma para la gestión de código y control de versiones.
+- Desarrollar habilidades en Bash: Aplicar lo aprendido sobre Bash para crear scripts que realicen tareas de ciberseguridad.
+- Continuar usando GitHub: Subir el segundo entregable a un repositorio. 
 
 ## Tareas
-### 1. **Script de Monitoreo de Red** (`monitoreo_red.sh`)
-Este script permite identificar el tráfico en la red y generar reportes utilizando `ifstat`.
+### 1. `monitoreo_red.sh`
+Este script permite identificar el trafico ejecutando el monitoreo de la red indefinidamente o con una cantidad establecida, así como generar reportes utilizando `ifstat`.
 
-### 2. **Script de Escaneo de Puertos** (`port_scan.sh`)
-Este script realiza escaneos de puertos TCP y UDP en un objetivo específico (IP o dominio) utilizando `nmap`. También ofrece la opción de generar un informe en HTML y analizar los resultados del escaneo.
+### 2. `port_scan.sh`
+Este script realiza escaneos de puertos TCP y UDP utilizando `nmap`. También ofrece la opción de generar un informe en HTML y analizar los resultados del escaneo, entre otras.
 
 ## Requisitos
 - Bash shell (disponible en sistemas Unix/Linux).
@@ -22,8 +23,8 @@ Este script realiza escaneos de puertos TCP y UDP en un objetivo específico (IP
 1. **Clona el repositorio en tu máquina local**:
    ```bash
    git clone https://github.com/AlxCastle/PIA_2E.git
-   cd PIA_2E
    ```
+   Ahora cuentas con la carpeta y dichos scripts.
 
 2. **Ejecución de los scripts**:
    - Asegúrate de que los scripts sean ejecutables:
@@ -66,7 +67,7 @@ Este comando escaneará los puertos TCP del host `10.0.0.5` en el rango del 1 al
 Ejecuta 10 veces el monitoreo de red.
 
 ## Demostración
-Puedes ver un video sobre cómo funcionan los scripts aquí: (https://youtu.be/mUHukhCl_4g).
+Puedes ver un video sobre cómo funcionan los scripts aquí: https://youtu.be/mUHukhCl_4g
 
 ## Colaboradores
 Este proyecto fue desarrollado en colaboración con:
