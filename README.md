@@ -2,7 +2,7 @@
 
 ## Descripción
 Este proyecto consiste en la creación de dos scripts en Bash que realizan tareas de ciberseguridad: `monitoreo de red` y `escaneo de puertos`. 
-Los scripts aceptan parámetros de entrada y cuentan con menús interactivos para diversas funcionalidades.
+Los scripts aceptan parámetros de entrada y cuentan con menús interactivos para diversas funcionalidades, así como el manejo de errores durante la ejecución.
 
 ## Objetivos
 - Desarrollar habilidades en Bash: Aplicar lo aprendido sobre Bash para crear scripts que realicen tareas de ciberseguridad.
